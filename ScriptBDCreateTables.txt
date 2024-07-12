@@ -1,0 +1,18 @@
+CREATE TABLE PessoaFisica (
+    cpf VARCHAR(14) PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    telefone VARCHAR(20),
+    endereco VARCHAR(255)
+);
+
+CREATE TABLE Cacamba (
+    id INTEGER PRIMARY KEY,
+    condicao VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE PessoaJuridica (
+    cnpj VARCHAR(18) PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    telefone VARCHAR(20),
+    endereco VARCHAR(255)
+);
